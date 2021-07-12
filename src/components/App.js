@@ -154,7 +154,8 @@ const states = [
   },
 ];
 function App() {
-    return ( <div id = "main">
+    return ( 
+    <div id="main">
             <ul>
             {states.map((states,i)=>{
                 return (<State states={states} key={i+1} id={i+1} />
